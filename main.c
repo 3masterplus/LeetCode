@@ -63,6 +63,7 @@ Node *deleteRepeatElement(Node *head) {
     Node *tmp = head;
 
     while (tmp->next != NULL) {
+        //如果当前节点的data部分等于下一节点的data部分,则
         if (tmp->data == tmp->next->data) {
             Node *delete = tmp->next;
             tmp->next = tmp->next->next;
