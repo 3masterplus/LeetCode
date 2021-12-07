@@ -2,9 +2,7 @@
 
 ##   删除排序链表中的重复元素
 
-83. Remove Duplicates from Sorted List (Easy)
-
- [力扣](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)
+83. [ Remove Duplicates from Sorted List (Easy)](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)
 
 ```c
 #include <stdio.h>
