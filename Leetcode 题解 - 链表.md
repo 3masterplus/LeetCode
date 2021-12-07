@@ -1,3 +1,12 @@
+# Leetcode 题解 - 链表
+
+##   删除排序链表中的重复元素
+
+83. Remove Duplicates from Sorted List (Easy)
+
+ [力扣](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/description/)
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -102,3 +111,4 @@ Node *deleteRepeatEle(Node *head) {
     return head->data == head->next->data ? head->next : head;
 }
 
+```
